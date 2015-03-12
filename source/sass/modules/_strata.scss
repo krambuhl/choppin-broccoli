@@ -1,0 +1,13 @@
+.strata {
+  padding: $spacing;
+}
+
+.strata-alt {
+  background: white;
+  color: #222;
+}
+
+.strata-header {
+  @extend .heading-small;
+  margin-bottom: 10px;
+}

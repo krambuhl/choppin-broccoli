@@ -1,0 +1,38 @@
+{
+  "name": "choppin-broccoli",
+  "homepage": "https://github.com/krambuhl/choppin-broccoli",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "build": "rm -rf dist && broccoli build dist",
+    "develop": "broccoli serve",
+    "start": "ws -p $PORT -c -d ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/choppin-broccoli.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "broccoli": "^0.13.3",
+    "broccoli-autoprefixer": "^2.0.0",
+    "broccoli-es6-transpiler": "^1.0.1",
+    "broccoli-fast-browserify": "^0.2.5",
+    "broccoli-handlebars": "0.0.6",
+    "broccoli-imagemin": "^0.2.1",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-sass": "^0.3.3",
+    "broccoli-static-compiler": "^0.2.1",
+    "broccoli-svgstore": "^0.1.0",
+    "grunt": "^0.4.5",
+    "handlebars": "^3.0.0",
+    "handlebars-helpers": "^0.5.8",
+    "handlebars-layouts": "^1.1.0",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "local-web-server": "^0.5.15"
+  }
+}
